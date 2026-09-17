@@ -1,0 +1,5 @@
+{
+    "name": "phpapp",
+    "description": "Example PHP application",
+    "require": {}
+}

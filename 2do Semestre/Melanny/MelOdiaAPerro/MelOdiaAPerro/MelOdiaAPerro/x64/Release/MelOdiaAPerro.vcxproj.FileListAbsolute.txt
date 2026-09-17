@@ -1,0 +1,6 @@
+C:\Users\IGNITER\Desktop\VisualCodigo\MelOdiaAPerro\MelOdiaAPerro\MelOdiaAPerro\x64\Release\MelOdiaAPerro.vcxproj.AssemblyReference.cache
+C:\Users\IGNITER\Desktop\VisualCodigo\MelOdiaAPerro\MelOdiaAPerro\MelOdiaAPerro\x64\Release\MelOdiaAPerro.MyForm.resources
+C:\Users\IGNITER\Desktop\VisualCodigo\MelOdiaAPerro\MelOdiaAPerro\MelOdiaAPerro\x64\Release\MelOdiaAPerro.MyForm2.resources
+C:\Users\IGNITER\Desktop\VisualCodigo\MelOdiaAPerro\MelOdiaAPerro\MelOdiaAPerro\x64\Release\MelOdiaAPerro.MyForm3.resources
+C:\Users\IGNITER\Desktop\VisualCodigo\MelOdiaAPerro\MelOdiaAPerro\MelOdiaAPerro\x64\Release\MelOdiaAPerro.MyForm4.resources
+C:\Users\IGNITER\Desktop\VisualCodigo\MelOdiaAPerro\MelOdiaAPerro\MelOdiaAPerro\x64\Release\MelOdiaAPerro.vcxproj.GenerateResource.cache

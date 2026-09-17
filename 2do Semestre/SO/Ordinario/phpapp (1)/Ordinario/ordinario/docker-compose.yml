@@ -1,0 +1,43 @@
+services:
+  # Base de Datos - MariaDB
+  db:
+    image: mariadb:latest
+    container_name: db_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: app_db
+      MYSQL_USER: db_user
+      MYSQL_PASSWORD: db_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - db_data:/var/lib/mysql
+
+  # Backend API - PHP
+  api:
+    build: ./backend
+    container_name: api_container
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - ./backend:/var/www/html
+    depends_on:
+      - db
+
+  # Frontend - PHP
+  frontend:
+    build: ./frontend
+    container_name: frontend_container
+    restart: always
+    ports:
+      - "8081:80"
+    volumes:
+      - ./frontend:/var/www/html
+    depends_on:
+      - api
+
+volumes:
+  db_data:

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MelAyuda/MelAyuda.vcxproj" Id="89e1ff57-8f46-42a2-b390-fde401f87ee7" />
+</Solution>

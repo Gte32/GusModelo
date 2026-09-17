@@ -1,0 +1,438 @@
+{
+  "Pokemon": [
+    {
+      "nombre": "Bulbasaur",
+      "tipo": "pasto",
+      "vida": 30
+    },
+    {
+      "nombre": "Ivysaur",
+      "tipo": "pasto",
+      "vida": 60
+    },
+    {
+      "nombre": "Venusaur",
+      "tipo": "pasto",
+      "vida": 100
+    },
+    {
+      "nombre": "Charmander",
+      "tipo": "fuego",
+      "vida": 30
+    },
+    {
+      "nombre": "Charmeleon",
+      "tipo": "fuego",
+      "vida": 60
+    },
+    {
+      "nombre": "Charizard",
+      "tipo": "fuego",
+      "vida": 100
+    },
+    {
+      "nombre": "Squirtle",
+      "tipo": "agua",
+      "vida": 30
+    },
+    {
+      "nombre": "Wartortle",
+      "tipo": "agua",
+      "vida": 60
+    },
+    {
+      "nombre": "Blastoise",
+      "tipo": "agua",
+      "vida": 100
+    },
+    {
+      "nombre": "Caterpie",
+      "tipo": "insecto",
+      "vida": 30
+    },
+    {
+      "nombre": "Metapod",
+      "tipo": "insecto",
+      "vida": 60
+    },
+    {
+      "nombre": "Butterfree",
+      "tipo": "insecto",
+      "vida": 100
+    },
+    {
+      "nombre": "Weedle",
+      "tipo": "insecto",
+      "vida": 30
+    },
+    {
+      "nombre": "Kakuna",
+      "tipo": "insecto",
+      "vida": 60
+    },
+    {
+      "nombre": "Beedrill",
+      "tipo": "insecto",
+      "vida": 100
+    },
+    {
+      "nombre": "Pidgey",
+      "tipo": "normal",
+      "vida": 30
+    },
+    {
+      "nombre": "Pidgeotto",
+      "tipo": "normal",
+      "vida": 60
+    },
+    {
+      "nombre": "Pidgeot",
+      "tipo": "normal",
+      "vida": 100
+    },
+    {
+      "nombre": "Rattata",
+      "tipo": "normal",
+      "vida": 30
+    },
+    {
+      "nombre": "Raticate",
+      "tipo": "normal",
+      "vida": 60
+    },
+    {
+      "nombre": "Spearow",
+      "tipo": "normal",
+      "vida": 30
+    },
+    {
+      "nombre": "Fearow",
+      "tipo": "normal",
+      "vida": 60
+    },
+    {
+      "nombre": "Ekans",
+      "tipo": "veneno",
+      "vida": 30
+    },
+    {
+      "nombre": "Arbok",
+      "tipo": "veneno",
+      "vida": 60
+    },
+    {
+      "nombre": "Pikachu",
+      "tipo": "electrico",
+      "vida": 30
+    },
+    {
+      "nombre": "Raichu",
+      "tipo": "electrico",
+      "vida": 60
+    },
+    {
+      "nombre": "Sandshrew",
+      "tipo": "suelo",
+      "vida": 30
+    },
+    {
+      "nombre": "Sandslash",
+      "tipo": "suelo",
+      "vida": 60
+    },
+    {
+      "nombre": "Nidoran",
+      "tipo": "veneno",
+      "vida": 30
+    },
+    {
+      "nombre": "Nidorina",
+      "tipo": "veneno",
+      "vida": 30
+    },
+    {
+      "nombre": "Nidoqueen",
+      "tipo": "veneno",
+      "vida": 60
+    },
+    {
+      "nombre": "Nidorino",
+      "tipo": "veneno",
+      "vida": 30
+    },
+    {
+      "nombre": "Nidoking",
+      "tipo": "veneno",
+      "vida": 60
+    },
+    {
+      "nombre": "Clefairy",
+      "tipo": "hada",
+      "vida": 30
+    },
+    {
+      "nombre": "Clefable",
+      "tipo": "hada",
+      "vida": 60
+    },
+    {
+      "nombre": "Vulpix",
+      "tipo": "fuego",
+      "vida": 30
+    },
+    {
+      "nombre": "Ninetales",
+      "tipo": "fuego",
+      "vida": 60
+    },
+    {
+      "nombre": "Jigglypuff",
+      "tipo": "normal",
+      "vida": 30
+    },
+    {
+      "nombre": "Wigglytuff",
+      "tipo": "normal",
+      "vida": 60
+    },
+    {
+      "nombre": "Zubat",
+      "tipo": "veneno",
+      "vida": 30
+    },
+    {
+      "nombre": "Golbat",
+      "tipo": "veneno",
+      "vida": 60
+    },
+    {
+      "nombre": "Oddish",
+      "tipo": "pasto",
+      "vida": 30
+    },
+    {
+      "nombre": "Gloom",
+      "tipo": "pasto",
+      "vida": 60
+    },
+    {
+      "nombre": "Vileplume",
+      "tipo": "pasto",
+      "vida": 100
+    },
+    {
+      "nombre": "Paras",
+      "tipo": "insecto",
+      "vida": 30
+    },
+    {
+      "nombre": "Parasect",
+      "tipo": "insecto",
+      "vida": 60
+    },
+    {
+      "nombre": "Venonat",
+      "tipo": "insecto",
+      "vida": 30
+    },
+    {
+      "nombre": "Venomoth",
+      "tipo": "insecto",
+      "vida": 60
+    },
+    {
+      "nombre": "Diglett",
+      "tipo": "suelo",
+      "vida": 30
+    },
+    {
+      "nombre": "Dugtrio",
+      "tipo": "suelo",
+      "vida": 60
+    },
+    {
+      "nombre": "Meowth",
+      "tipo": "normal",
+      "vida": 30
+    },
+    {
+      "nombre": "Persian",
+      "tipo": "normal",
+      "vida": 60
+    },
+    {
+      "nombre": "Psyduck",
+      "tipo": "agua",
+      "vida": 30
+    },
+    {
+      "nombre": "Golduck",
+      "tipo": "agua",
+      "vida": 60
+    }
+  ],
+
+  "AtaquesT": {
+    "electrico": [
+      {
+        "nombre": "Impactrueno",
+        "damage": 20
+      },
+      {
+        "nombre": "Rayo",
+        "damage": 30
+      },
+      {
+        "nombre": "Chispa",
+        "damage": 20
+      },
+      {
+        "nombre": "Colmillo rayo",
+        "damage": 25
+      },
+      {
+        "nombre": "Bola voltio",
+        "damage": 20
+      }
+    ],
+    "fuego": [
+      {
+        "nombre": "Lanzallamas",
+        "damage": 20
+      },
+      {
+        "nombre": "Fuego igneo",
+        "damage": 30
+      },
+      {
+        "nombre": "Llamarada",
+        "damage": 30
+      },
+      {
+        "nombre": "Cuchilla solar",
+        "damage": 25
+      }
+    ],
+    "agua": [
+      {
+        "nombre": "Pistola agua",
+        "damage": 20
+      },
+      {
+        "nombre": "Cascada",
+        "damage": 25
+      },
+      {
+        "nombre": "Chapoteo lodo",
+        "damage": 20
+      }
+    ],
+    "pasto": [
+      {
+        "nombre": "Hoja afilada",
+        "damage": 20
+      },
+      {
+        "nombre": "Cañón floral",
+        "damage": 25
+      },
+      {
+        "nombre": "Campo de hierba",
+        "damage": 15
+      }
+    ],
+    "veneno": [
+      {
+        "nombre": "Acido",
+        "damage": 20
+      },
+      {
+        "nombre": "Colmillo veneno",
+        "damage": 25
+      },
+      {
+        "nombre": "Carga toxica",
+        "damage": 20
+      }
+    ],
+    "normal": [
+      {
+        "nombre": "Placaje",
+        "damage": 20
+      },
+      {
+        "nombre": "Embestida",
+        "damage": 30
+      },
+      {
+        "nombre": "Aranazo",
+        "damage": 15
+      }
+    ],
+    "insecto": [
+      {
+        "nombre": "Aguijon letal",
+        "damage": 20
+      },
+      {
+        "nombre": "Bola de polen",
+        "damage": 25
+      },
+      {
+        "nombre": "Picotazo",
+        "damage": 15
+      }
+    ],
+    "hada": [
+      {
+        "nombre": "Beso amoroso",
+        "damage": 20
+      }
+    ],
+    "psiquico": [
+      {
+        "nombre": "Confusion",
+        "damage": 25
+      },
+      {
+        "nombre": "Canto mortal",
+        "damage": 20
+      }
+    ]
+  },
+
+  "AtaquesN": [
+    {
+      "nombre": "Placaje",
+      "damage": 20
+    },
+    {
+      "nombre": "Embestida",
+      "damage": 30
+    },
+    {
+      "nombre": "Aranazo",
+      "damage": 15
+    },
+    {
+      "nombre": "Carga",
+      "damage": 20
+    },
+    {
+      "nombre": "Bostezo",
+      "damage": 10
+    },
+    {
+      "nombre": "Aullido",
+      "damage": 10
+    },
+    {
+      "nombre": "Canto",
+      "damage": 15
+    },
+    {
+      "nombre": "Contraataque",
+      "damage": 20
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿services:
+  db:
+    image: mariadb:latest
+    container_name: db_sistema
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: db_personajes
+      MYSQL_USER: db_user
+      MYSQL_PASSWORD: db_pass
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  api:
+    build: ./api
+    container_name: api_sistema
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    container_name: frontend_sistema
+    ports:
+      - "8081:80"
+    depends_on:
+      - api

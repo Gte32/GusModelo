@@ -1,0 +1,16 @@
+{
+  //El composer da formato a nuestro php, se usa en proyectos profesionales y se busca para dar estabilidad y orden
+  //Aqui el nombre es autor:nombreproyecto
+  "name": "gustavo/guspruebaphp",
+  //se le da una descripcion breve al proyecto
+  "description": "Este es un proyecto php hecho a mano sin ia para entender bien cada cosa",
+  //se le da un tipo, el proyect es una app o algo personal x, hay library para libreria y otros tipos
+  "type": "proyect",
+  "require": {
+    "php": ">= 8.0",
+    "monolog/monolog": ">=3.0"
+    }
+
+
+
+}

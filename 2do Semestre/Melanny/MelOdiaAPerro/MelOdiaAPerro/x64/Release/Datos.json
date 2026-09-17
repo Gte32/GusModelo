@@ -1,0 +1,1214 @@
+{
+  "Pokemon": [
+    {
+      "nombre": "Bulbasaur",
+      "tipo": "pasto",
+      "vida": 30,
+      "numero": "0001"
+    },
+    {
+      "nombre": "Ivysaur",
+      "tipo": "pasto",
+      "vida": 60,
+      "numero": "0002"
+    },
+    {
+      "nombre": "Venusaur",
+      "tipo": "pasto",
+      "vida": 100,
+      "numero": "0003"
+    },
+    {
+      "nombre": "Charmander",
+      "tipo": "fuego",
+      "vida": 30,
+      "numero": "0004"
+    },
+    {
+      "nombre": "Charmeleon",
+      "tipo": "fuego",
+      "vida": 60,
+      "numero": "0005"
+    },
+    {
+      "nombre": "Charizard",
+      "tipo": "fuego",
+      "vida": 100,
+      "numero": "0006"
+    },
+    {
+      "nombre": "Squirtle",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0007"
+    },
+    {
+      "nombre": "Wartortle",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0008"
+    },
+    {
+      "nombre": "Blastoise",
+      "tipo": "agua",
+      "vida": 100,
+      "numero": "0009"
+    },
+    {
+      "nombre": "Caterpie",
+      "tipo": "insecto",
+      "vida": 30,
+      "numero": "0010"
+    },
+    {
+      "nombre": "Metapod",
+      "tipo": "insecto",
+      "vida": 60,
+      "numero": "0011"
+    },
+    {
+      "nombre": "Butterfree",
+      "tipo": "insecto",
+      "vida": 100,
+      "numero": "0012"
+    },
+    {
+      "nombre": "Weedle",
+      "tipo": "insecto",
+      "vida": 30,
+      "numero": "0013"
+    },
+    {
+      "nombre": "Kakuna",
+      "tipo": "insecto",
+      "vida": 60,
+      "numero": "0014"
+    },
+    {
+      "nombre": "Beedrill",
+      "tipo": "insecto",
+      "vida": 100,
+      "numero": "0015"
+    },
+    {
+      "nombre": "Pidgey",
+      "tipo": "normal",
+      "vida": 30,
+      "numero": "0016"
+    },
+    {
+      "nombre": "Pidgeotto",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0017"
+    },
+    {
+      "nombre": "Pidgeot",
+      "tipo": "normal",
+      "vida": 100,
+      "numero": "0018"
+    },
+    {
+      "nombre": "Rattata",
+      "tipo": "normal",
+      "vida": 30,
+      "numero": "0019"
+    },
+    {
+      "nombre": "Raticate",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0020"
+    },
+    {
+      "nombre": "Spearow",
+      "tipo": "normal",
+      "vida": 30,
+      "numero": "0021"
+    },
+    {
+      "nombre": "Fearow",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0022"
+    },
+    {
+      "nombre": "Ekans",
+      "tipo": "veneno",
+      "vida": 30,
+      "numero": "0023"
+    },
+    {
+      "nombre": "Arbok",
+      "tipo": "veneno",
+      "vida": 60,
+      "numero": "0024"
+    },
+    {
+      "nombre": "Pikachu",
+      "tipo": "electrico",
+      "vida": 60,
+      "numero": "0025"
+    },
+    {
+      "nombre": "Raichu",
+      "tipo": "electrico",
+      "vida": 60,
+      "numero": "0026"
+    },
+    {
+      "nombre": "Sandshrew",
+      "tipo": "suelo",
+      "vida": 30,
+      "numero": "0027"
+    },
+    {
+      "nombre": "Sandslash",
+      "tipo": "suelo",
+      "vida": 60,
+      "numero": "0028"
+    },
+    {
+      "nombre": "Nidoran",
+      "tipo": "veneno",
+      "vida": 30,
+      "numero": "0029"
+    },
+    {
+      "nombre": "Nidorina",
+      "tipo": "veneno",
+      "vida": 60,
+      "numero": "0030"
+    },
+    {
+      "nombre": "Nidoqueen",
+      "tipo": "veneno",
+      "vida": 60,
+      "numero": "0031"
+    },
+    {
+      "nombre": "Nidorino",
+      "tipo": "veneno",
+      "vida": 30,
+      "numero": "0032"
+    },
+    {
+      "nombre": "Nidoking",
+      "tipo": "veneno",
+      "vida": 60,
+      "numero": "0033"
+    },
+    {
+      "nombre": "Clefairy",
+      "tipo": "hada",
+      "vida": 60,
+      "numero": "0035"
+    },
+    {
+      "nombre": "Clefable",
+      "tipo": "hada",
+      "vida": 60,
+      "numero": "0036"
+    },
+    {
+      "nombre": "Vulpix",
+      "tipo": "fuego",
+      "vida": 30,
+      "numero": "0037"
+    },
+    {
+      "nombre": "Ninetales",
+      "tipo": "fuego",
+      "vida": 60,
+      "numero": "0038"
+    },
+    {
+      "nombre": "Jigglypuff",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0039"
+    },
+    {
+      "nombre": "Wigglytuff",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0040"
+    },
+    {
+      "nombre": "Zubat",
+      "tipo": "veneno",
+      "vida": 30,
+      "numero": "0041"
+    },
+    {
+      "nombre": "Golbat",
+      "tipo": "veneno",
+      "vida": 60,
+      "numero": "0042"
+    },
+    {
+      "nombre": "Oddish",
+      "tipo": "pasto",
+      "vida": 30,
+      "numero": "0043"
+    },
+    {
+      "nombre": "Gloom",
+      "tipo": "pasto",
+      "vida": 60,
+      "numero": "0044"
+    },
+    {
+      "nombre": "Vileplume",
+      "tipo": "pasto",
+      "vida": 100,
+      "numero": "0045"
+    },
+    {
+      "nombre": "Paras",
+      "tipo": "insecto",
+      "vida": 30,
+      "numero": "0046"
+    },
+    {
+      "nombre": "Parasect",
+      "tipo": "insecto",
+      "vida": 60,
+      "numero": "0047"
+    },
+    {
+      "nombre": "Venonat",
+      "tipo": "insecto",
+      "vida": 30,
+      "numero": "0048"
+    },
+    {
+      "nombre": "Venomoth",
+      "tipo": "insecto",
+      "vida": 60,
+      "numero": "0049"
+    },
+    {
+      "nombre": "Diglett",
+      "tipo": "suelo",
+      "vida": 30,
+      "numero": "0050"
+    },
+    {
+      "nombre": "Dugtrio",
+      "tipo": "suelo",
+      "vida": 60,
+      "numero": "0051"
+    },
+    {
+      "nombre": "Meowth",
+      "tipo": "normal",
+      "vida": 30,
+      "numero": "0052"
+    },
+    {
+      "nombre": "Persian",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0053"
+    },
+    {
+      "nombre": "Psyduck",
+      "tipo": "psiquico",
+      "vida": 30,
+      "numero": "0054"
+    },
+    {
+      "nombre": "Golduck",
+      "tipo": "psiquico",
+      "vida": 60,
+      "numero": "0055"
+    },
+    {
+      "nombre": "Mankey",
+      "tipo": "lucha",
+      "vida": 30,
+      "numero": "0056"
+    },
+    {
+      "nombre": "Primeape",
+      "tipo": "lucha",
+      "vida": 60,
+      "numero": "0057"
+    },
+    {
+      "nombre": "Growlithe",
+      "tipo": "fuego",
+      "vida": 30,
+      "numero": "0058"
+    },
+    {
+      "nombre": "Arcanine",
+      "tipo": "fuego",
+      "vida": 60,
+      "numero": "0059"
+    },
+    {
+      "nombre": "Poliwag",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0060"
+    },
+    {
+      "nombre": "Poliwhirl",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0061"
+    },
+    {
+      "nombre": "Poliwrath",
+      "tipo": "agua",
+      "vida": 100,
+      "numero": "0062"
+    },
+    {
+      "nombre": "Abra",
+      "tipo": "psiquico",
+      "vida": 30,
+      "numero": "0063"
+    },
+    {
+      "nombre": "Kadabra",
+      "tipo": "psiquico",
+      "vida": 60,
+      "numero": "0064"
+    },
+    {
+      "nombre": "Alakazam",
+      "tipo": "psiquico",
+      "vida": 100,
+      "numero": "0065"
+    },
+    {
+      "nombre": "Machop",
+      "tipo": "lucha",
+      "vida": 30,
+      "numero": "0066"
+    },
+    {
+      "nombre": "Machoke",
+      "tipo": "lucha",
+      "vida": 60,
+      "numero": "0067"
+    },
+    {
+      "nombre": "Machamp",
+      "tipo": "lucha",
+      "vida": 100,
+      "numero": "0068"
+    },
+    {
+      "nombre": "Bellsprout",
+      "tipo": "pasto",
+      "vida": 30,
+      "numero": "0069"
+    },
+    {
+      "nombre": "Weepinbell",
+      "tipo": "pasto",
+      "vida": 60,
+      "numero": "0070"
+    },
+    {
+      "nombre": "Victreebel",
+      "tipo": "pasto",
+      "vida": 100,
+      "numero": "0071"
+    },
+    {
+      "nombre": "Tentacool",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0072"
+    },
+    {
+      "nombre": "Tentacruel",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0073"
+    },
+    {
+      "nombre": "Geodude",
+      "tipo": "roca",
+      "vida": 30,
+      "numero": "0074"
+    },
+    {
+      "nombre": "Graveler",
+      "tipo": "roca",
+      "vida": 60,
+      "numero": "0075"
+    },
+    {
+      "nombre": "Golem",
+      "tipo": "roca",
+      "vida": 100,
+      "numero": "0076"
+    },
+    {
+      "nombre": "Ponyta",
+      "tipo": "fuego",
+      "vida": 30,
+      "numero": "0077"
+    },
+    {
+      "nombre": "Rapidash",
+      "tipo": "fuego",
+      "vida": 60,
+      "numero": "0078"
+    },
+    {
+      "nombre": "Slowpoke",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0079"
+    },
+    {
+      "nombre": "Slowbro",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0080"
+    },
+    {
+      "nombre": "Magnemite",
+      "tipo": "electrico",
+      "vida": 30,
+      "numero": "0081"
+    },
+    {
+      "nombre": "Magneton",
+      "tipo": "electrico",
+      "vida": 60,
+      "numero": "0082"
+    },
+    {
+      "nombre": "Farfetch'd",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0083"
+    },
+    {
+      "nombre": "Doduo",
+      "tipo": "normal",
+      "vida": 30,
+      "numero": "0084"
+    },
+    {
+      "nombre": "Dodrio",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0085"
+    },
+    {
+      "nombre": "Seel",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0086"
+    },
+    {
+      "nombre": "Dewgong",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0087"
+    },
+    {
+      "nombre": "Grimer",
+      "tipo": "veneno",
+      "vida": 30,
+      "numero": "0088"
+    },
+    {
+      "nombre": "Muk",
+      "tipo": "veneno",
+      "vida": 60,
+      "numero": "0089"
+    },
+    {
+      "nombre": "Shellder",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0090"
+    },
+    {
+      "nombre": "Cloyster",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0091"
+    },
+    {
+      "nombre": "Gastly",
+      "tipo": "fantasma",
+      "vida": 30,
+      "numero": "0092"
+    },
+    {
+      "nombre": "Haunter",
+      "tipo": "fantasma",
+      "vida": 60,
+      "numero": "0093"
+    },
+    {
+      "nombre": "Gengar",
+      "tipo": "fantasma",
+      "vida": 100,
+      "numero": "0094"
+    },
+    {
+      "nombre": "Onix",
+      "tipo": "roca",
+      "vida": 60,
+      "numero": "0095"
+    },
+    {
+      "nombre": "Drowzee",
+      "tipo": "psiquico",
+      "vida": 30,
+      "numero": "0096"
+    },
+    {
+      "nombre": "Hypno",
+      "tipo": "psiquico",
+      "vida": 60,
+      "numero": "0097"
+    },
+    {
+      "nombre": "Krabby",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0098"
+    },
+    {
+      "nombre": "Kingler",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0099"
+    },
+    {
+      "nombre": "Voltorb",
+      "tipo": "electrico",
+      "vida": 30,
+      "numero": "0100"
+    },
+    {
+      "nombre": "Electrode",
+      "tipo": "electrico",
+      "vida": 60,
+      "numero": "0101"
+    },
+    {
+      "nombre": "Exeggcute",
+      "tipo": "pasto",
+      "vida": 30,
+      "numero": "0102"
+    },
+    {
+      "nombre": "Exeggutor",
+      "tipo": "pasto",
+      "vida": 60,
+      "numero": "0103"
+    },
+    {
+      "nombre": "Cubone",
+      "tipo": "suelo",
+      "vida": 30,
+      "numero": "0104"
+    },
+    {
+      "nombre": "Marowak",
+      "tipo": "suelo",
+      "vida": 60,
+      "numero": "0105"
+    },
+    {
+      "nombre": "Hitmonlee",
+      "tipo": "lucha",
+      "vida": 60,
+      "numero": "0106"
+    },
+    {
+      "nombre": "Hitmonchan",
+      "tipo": "lucha",
+      "vida": 60,
+      "numero": "0107"
+    },
+    {
+      "nombre": "Lickitung",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0108"
+    },
+    {
+      "nombre": "Koffing",
+      "tipo": "veneno",
+      "vida": 30,
+      "numero": "0109"
+    },
+    {
+      "nombre": "Weezing",
+      "tipo": "veneno",
+      "vida": 60,
+      "numero": "0110"
+    },
+    {
+      "nombre": "Rhyhorn",
+      "tipo": "suelo",
+      "vida": 30,
+      "numero": "0111"
+    },
+    {
+      "nombre": "Rhydon",
+      "tipo": "suelo",
+      "vida": 60,
+      "numero": "0112"
+    },
+    {
+      "nombre": "Chansey",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0113"
+    },
+    {
+      "nombre": "Tangela",
+      "tipo": "pasto",
+      "vida": 60,
+      "numero": "0114"
+    },
+    {
+      "nombre": "Kangaskhan",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0115"
+    },
+    {
+      "nombre": "Horsea",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0116"
+    },
+    {
+      "nombre": "Seadra",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0117"
+    },
+    {
+      "nombre": "Goldeen",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0118"
+    },
+    {
+      "nombre": "Seaking",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0119"
+    },
+    {
+      "nombre": "Staryu",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0120"
+    },
+    {
+      "nombre": "Starmie",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0121"
+    },
+    {
+      "nombre": "Mr. Mime",
+      "tipo": "psiquico",
+      "vida": 60,
+      "numero": "0122"
+    },
+    {
+      "nombre": "Scyther",
+      "tipo": "insecto",
+      "vida": 60,
+      "numero": "0123"
+    },
+    {
+      "nombre": "Jynx",
+      "tipo": "hielo",
+      "vida": 60,
+      "numero": "0124"
+    },
+    {
+      "nombre": "Electabuzz",
+      "tipo": "electrico",
+      "vida": 60,
+      "numero": "0125"
+    },
+    {
+      "nombre": "Magmar",
+      "tipo": "fuego",
+      "vida": 60,
+      "numero": "0126"
+    },
+    {
+      "nombre": "Pinsir",
+      "tipo": "insecto",
+      "vida": 60,
+      "numero": "0127"
+    },
+    {
+      "nombre": "Tauros",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0128"
+    },
+    {
+      "nombre": "Magikarp",
+      "tipo": "agua",
+      "vida": 30,
+      "numero": "0129"
+    },
+    {
+      "nombre": "Gyarados",
+      "tipo": "agua",
+      "vida": 100,
+      "numero": "0130"
+    },
+    {
+      "nombre": "Lapras",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0131"
+    },
+    {
+      "nombre": "Ditto",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0132"
+    },
+    {
+      "nombre": "Eevee",
+      "tipo": "normal",
+      "vida": 30,
+      "numero": "0133"
+    },
+    {
+      "nombre": "Vaporeon",
+      "tipo": "agua",
+      "vida": 60,
+      "numero": "0134"
+    },
+    {
+      "nombre": "Jolteon",
+      "tipo": "electrico",
+      "vida": 60,
+      "numero": "0135"
+    },
+    {
+      "nombre": "Flareon",
+      "tipo": "fuego",
+      "vida": 60,
+      "numero": "0136"
+    },
+    {
+      "nombre": "Porygon",
+      "tipo": "normal",
+      "vida": 60,
+      "numero": "0137"
+    },
+    {
+      "nombre": "Omanyte",
+      "tipo": "roca",
+      "vida": 30,
+      "numero": "0138"
+    },
+    {
+      "nombre": "Omastar",
+      "tipo": "roca",
+      "vida": 60,
+      "numero": "0139"
+    },
+    {
+      "nombre": "Kabuto",
+      "tipo": "roca",
+      "vida": 30,
+      "numero": "0140"
+    },
+    {
+      "nombre": "Kabutops",
+      "tipo": "roca",
+      "vida": 60,
+      "numero": "0141"
+    },
+    {
+      "nombre": "Aerodactyl",
+      "tipo": "roca",
+      "vida": 60,
+      "numero": "0142"
+    },
+    {
+      "nombre": "Snorlax",
+      "tipo": "normal",
+      "vida": 100,
+      "numero": "0143"
+    },
+    {
+      "nombre": "Articuno",
+      "tipo": "hielo",
+      "vida": 100,
+      "numero": "0144"
+    },
+    {
+      "nombre": "Zapdos",
+      "tipo": "electrico",
+      "vida": 100,
+      "numero": "0145"
+    },
+    {
+      "nombre": "Moltres",
+      "tipo": "fuego",
+      "vida": 100,
+      "numero": "0146"
+    },
+    {
+      "nombre": "Dratini",
+      "tipo": "dragon",
+      "vida": 30,
+      "numero": "0147"
+    },
+    {
+      "nombre": "Dragonair",
+      "tipo": "dragon",
+      "vida": 60,
+      "numero": "0148"
+    },
+    {
+      "nombre": "Dragonite",
+      "tipo": "dragon",
+      "vida": 100,
+      "numero": "0149"
+    },
+    {
+      "nombre": "Mewtwo",
+      "tipo": "psiquico",
+      "vida": 100,
+      "numero": "0150"
+    },
+    {
+      "nombre": "Mew",
+      "tipo": "psiquico",
+      "vida": 100,
+      "numero": "0151"
+    }
+  ],
+  "AtaquesT": {
+    "electrico": [
+      {
+        "nombre": "Impactrueno",
+        "damage": 20
+      },
+      {
+        "nombre": "Rayo",
+        "damage": 30
+      },
+      {
+        "nombre": "Chispa",
+        "damage": 20
+      },
+      {
+        "nombre": "Colmillo rayo",
+        "damage": 25
+      },
+      {
+        "nombre": "Bola voltio",
+        "damage": 20
+      }
+    ],
+    "fuego": [
+      {
+        "nombre": "Lanzallamas",
+        "damage": 20
+      },
+      {
+        "nombre": "Fuego igneo",
+        "damage": 30
+      },
+      {
+        "nombre": "Llamarada",
+        "damage": 30
+      },
+      {
+        "nombre": "Cuchilla solar",
+        "damage": 25
+      }
+    ],
+    "agua": [
+      {
+        "nombre": "Pistola agua",
+        "damage": 20
+      },
+      {
+        "nombre": "Cascada",
+        "damage": 25
+      },
+      {
+        "nombre": "Chapoteo lodo",
+        "damage": 20
+      },
+      {
+        "nombre": "Surf",
+        "damage": 25
+      }
+    ],
+    "pasto": [
+      {
+        "nombre": "Hoja afilada",
+        "damage": 20
+      },
+      {
+        "nombre": "Cañon floral",
+        "damage": 25
+      },
+      {
+        "nombre": "Campo de hierba",
+        "damage": 15
+      },
+      {
+        "nombre": "Energibola",
+        "damage": 25
+      }
+    ],
+    "veneno": [
+      {
+        "nombre": "Acido",
+        "damage": 20
+      },
+      {
+        "nombre": "Colmillo veneno",
+        "damage": 25
+      },
+      {
+        "nombre": "Carga toxica",
+        "damage": 20
+      },
+      {
+        "nombre": "Bomba lodo",
+        "damage": 25
+      }
+    ],
+    "normal": [
+      {
+        "nombre": "Placaje",
+        "damage": 20
+      },
+      {
+        "nombre": "Embestida",
+        "damage": 30
+      },
+      {
+        "nombre": "Arañazo",
+        "damage": 15
+      },
+      {
+        "nombre": "Golpe",
+        "damage": 20
+      }
+    ],
+    "insecto": [
+      {
+        "nombre": "Aguijon letal",
+        "damage": 20
+      },
+      {
+        "nombre": "Bola de polen",
+        "damage": 25
+      },
+      {
+        "nombre": "Picotazo",
+        "damage": 15
+      },
+      {
+        "nombre": "Zumbido",
+        "damage": 20
+      }
+    ],
+    "hada": [
+      {
+        "nombre": "Beso amoroso",
+        "damage": 20
+      },
+      {
+        "nombre": "Voz cautivadora",
+        "damage": 25
+      },
+      {
+        "nombre": "Brillo magico",
+        "damage": 20
+      },
+      {
+        "nombre": "Encanto",
+        "damage": 15
+      }
+    ],
+    "psiquico": [
+      {
+        "nombre": "Confusion",
+        "damage": 25
+      },
+      {
+        "nombre": "Canto mortal",
+        "damage": 20
+      },
+      {
+        "nombre": "Psiquico",
+        "damage": 30
+      },
+      {
+        "nombre": "Teletransporte",
+        "damage": 15
+      }
+    ],
+    "suelo": [
+      {
+        "nombre": "Terremoto",
+        "damage": 30
+      },
+      {
+        "nombre": "Excavar",
+        "damage": 25
+      },
+      {
+        "nombre": "Lanzarrocas",
+        "damage": 20
+      },
+      {
+        "nombre": "Fisura",
+        "damage": 35
+      }
+    ],
+    "lucha": [
+      {
+        "nombre": "Golpe karate",
+        "damage": 20
+      },
+      {
+        "nombre": "Patada baja",
+        "damage": 25
+      },
+      {
+        "nombre": "Puño dinamico",
+        "damage": 30
+      },
+      {
+        "nombre": "Patada voladora",
+        "damage": 25
+      }
+    ],
+    "roca": [
+      {
+        "nombre": "Lanzarrocas",
+        "damage": 20
+      },
+      {
+        "nombre": "Avalancha",
+        "damage": 25
+      },
+      {
+        "nombre": "Deslizamiento",
+        "damage": 30
+      },
+      {
+        "nombre": "Filo roca",
+        "damage": 25
+      }
+    ],
+    "fantasma": [
+      {
+        "nombre": "Lenguetazo",
+        "damage": 20
+      },
+      {
+        "nombre": "Sombra nocturna",
+        "damage": 25
+      },
+      {
+        "nombre": "Puño sombra",
+        "damage": 30
+      },
+      {
+        "nombre": "Maldicion",
+        "damage": 20
+      }
+    ],
+    "hielo": [
+      {
+        "nombre": "Rayo hielo",
+        "damage": 20
+      },
+      {
+        "nombre": "Ventisca",
+        "damage": 30
+      },
+      {
+        "nombre": "Nieve polvo",
+        "damage": 15
+      },
+      {
+        "nombre": "Caramelo",
+        "damage": 25
+      }
+    ],
+    "dragon": [
+      {
+        "nombre": "Dragoaliento",
+        "damage": 20
+      },
+      {
+        "nombre": "Furia dragon",
+        "damage": 25
+      },
+      {
+        "nombre": "Cola dragon",
+        "damage": 30
+      },
+      {
+        "nombre": "Enfado",
+        "damage": 35
+      }
+    ]
+  },
+  "AtaquesN": [
+    {
+      "nombre": "Placaje",
+      "damage": 20
+    },
+    {
+      "nombre": "Embestida",
+      "damage": 30
+    },
+    {
+      "nombre": "Arañazo",
+      "damage": 15
+    },
+    {
+      "nombre": "Carga",
+      "damage": 20
+    },
+    {
+      "nombre": "Bostezo",
+      "damage": 10
+    },
+    {
+      "nombre": "Aullido",
+      "damage": 10
+    },
+    {
+      "nombre": "Canto",
+      "damage": 15
+    },
+    {
+      "nombre": "Contraataque",
+      "damage": 20
+    }
+  ]
+}

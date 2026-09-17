@@ -1,0 +1,32 @@
+##Primero tu version del docker compose, obtenida con: docker compose version
+##correccion, tu version adquirida es una moderna PERO la PUESTA AQUI, es la VERSION DEL FORMATO DEL ARCHIVO
+##En este caso es 3.8, nuestra version ES COMPATIBLE  
+version: "3.8" ##recordemos al formula es x:x:x (version mayor):(herramientas o mejoras notables):(hotfixes)
+
+
+##IMPORTANTE: NI LOS COMENTARIOS LLEVAN TABS SOLO ESPACIOS MUY ESTRICTO
+##segundo creas tus servcios que vas a usar
+##IMPORTANTE AQUI NADA DE TABS ESPACIOS OBLIGATORIOS
+##0 ESPACIOS
+services:
+##aqui creamos el nombre del guspruebaPHP, el nombre que le dimos es php-env de php enviroment    
+## 2 ESPACIOS
+##EL NOMBRE DE TU BUILD NO PUEDE TENER MAYUSCULAS
+  guspruebaphp: 
+##Segundo se construye la build, esta debe tener la ruta de tu docker file, aprende a pensar y usa el explorador de archivos  
+##Aqui, ingresamos un punto, el punto basicamente es nuestra carpeta raiz, es decir lo que ves en tu explorador de archivos en los lados, si queremos entrar a una carpeta
+##agregamos ./carpetafea y va checar ahi en la carpeta, en este caso pues esta en la raiz
+## 4 ESPACIOS
+    build: .
+##volume es muy importante sincronizado a tu directorio local, de aqui sacamos el source code, aqui va el src: VER DOS , que de hecho despues del src: es igual al puesto en dockerfile
+##es el default root folder del apache, si quieres cambiarlo tienes que modificar el apache.config
+## 4 ESPACIOS
+    volumes: 
+##6 ESPACIOS
+      - ./src:/var/www/html
+##aqui va el puerto que vamos a exponer, el de la izquierda puede ser casi el que sea, pero el de la derecha si vas a usar php apache es USAR el 80 
+##izquierda (puerto expuesto compu): derecha (puerto expuesto docker (obligado 80 normalmente))
+##4 ESPACIOS
+    ports: 
+##6 ESPACIOS
+      - 9000:80

@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imagenes">
+      <UniqueIdentifier>{c433030c-e9be-4a1b-a46d-e07184305ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imagenes\red-blue">
+      <UniqueIdentifier>{21f9be00-e04e-4049-81c6-6bb0d38a7024}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm2.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm3.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm4.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm2.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm3.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm4.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="x64\Debug\imagenes\red-blue\0001.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0002.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0003.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0004.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0005.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0006.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0007.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0008.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0009.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0010.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0011.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0012.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0013.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0014.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0015.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0016.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0017.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0018.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0019.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0020.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0021.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0022.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0023.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0024.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0025.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0026.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0027.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0028.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0029.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0030.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0031.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0032.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0033.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0034.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0035.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0036.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0037.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0038.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0039.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0040.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0041.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0042.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0043.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0044.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0045.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0046.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0047.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0048.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0049.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0050.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0051.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0052.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0053.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0054.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0055.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0056.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0057.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0058.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0059.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0060.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0061.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0062.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0063.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0064.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0065.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0066.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0067.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0068.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0069.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0070.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0071.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0072.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0073.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0074.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0075.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0076.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0077.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0078.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0079.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0080.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0081.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0082.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0083.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0084.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0085.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0086.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0087.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0088.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0089.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0090.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0091.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0092.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0093.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0094.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0095.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0096.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0097.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0098.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0099.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0100.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0101.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0102.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0103.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0104.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0105.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0106.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0107.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0108.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0109.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0110.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0111.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0112.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0113.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0114.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0115.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0116.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0117.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0118.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0119.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0120.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0121.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0122.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0123.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0124.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0125.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0126.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0127.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0128.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0129.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0130.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0131.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0132.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0133.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0134.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0135.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0136.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0137.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0138.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0139.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0140.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0141.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0142.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0143.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0144.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0145.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0146.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0147.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0148.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0149.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0150.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+    <Image Include="x64\Debug\imagenes\red-blue\0151.png">
+      <Filter>imagenes\red-blue</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="Datos.json">
+      <Filter>Archivos de encabezado</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
