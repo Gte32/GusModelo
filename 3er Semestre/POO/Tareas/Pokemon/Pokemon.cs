@@ -8,22 +8,7 @@ class Pokemon
     public int ataque;
     private int nivel;
 
-    public void Atacar(Pokemon enemigo)
-    {
-        int aux;
-        aux = enemigo.Vida;
 
-        int ataque = this.ataque;
-        enemigo.RecibirDaño(ataque);
-
-        Console.WriteLine($"{this.nombre} ataco a {enemigo.nombre}");
-        Console.WriteLine($"Hizo {this.ataque} el {enemigo.nombre} paso de {aux} a {enemigo.Vida} ");
-    }
-
-    public void RecibirDaño(int ataqueEnemigo)
-    {
-        Vida -= ataqueEnemigo;
-    }
 
     public Pokemon()
     {
