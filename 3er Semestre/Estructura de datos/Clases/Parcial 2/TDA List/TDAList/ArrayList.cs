@@ -33,7 +33,6 @@ namespace TDAList
         public ArrayList() : this(INITIAL_CAPACITY) { }
 
 
-
         public T this[int index] 
         {
             get => data[index];
@@ -56,12 +55,83 @@ namespace TDAList
 
         public bool IsReadOnly => throw new NotImplementedException();
 
-        
 
-        public void Clear()
+        //ENUMERADORES
+
+        //Dedicamos 2 clases mas o menos comprender como es que funciona un enumerador. Este NO crea un index, si no que va recorriendo
+        //y solo asi devuelve el valor
+        // la manera de guardar el camino que toamamos es mediante el yield return, que guarda por donde vino 
+
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            for (int i = 0; i < Size; i++)
+            {
+                yield return data[i];
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+        //misma funcionalidad que el indexador
+        public T Get(int index) => data[index];
+
+        public T Set(int index, T element) => data[index] = element;
+
+        public void AddAll(T first, params T[] elements)
+        {
+            Add(first);
+            foreach (T e in elements)
+            {
+                Add(e);
+            }
+
+        }
+
+        public void Insert(int index, T element)
+        {
+            if (index < 0 || index > Size)
+            {
+                throw new IndexOutOfRangeException("Index");
+            }
+
+            if (Size == Capacity)
+            {
+                Capacity *= 2;
+                Array.Resize(ref data, Capacity);
+            }
+
+            int indexToCopy = this.index + 1;
+
+            while (indexToCopy > index + 1)
+            {
+                data[indexToCopy] = data[indexToCopy - 1];
+                indexToCopy--;
+            }
+
+            data[index] = element; 
+        }
+
+
+        // IMPLEMENTAR
+        //validar indice, remover elemento y ajustar tamaño
+        public void RemoveAt(int index)
         {
             throw new NotImplementedException();
         }
+
+        public void Clear()
+        {
+            index = -1;
+            Capacity = INITIAL_CAPACITY;
+            data = new T[INITIAL_CAPACITY];
+            Array.Resize(ref data, Capacity);
+        }
+
+
 
         public bool Contains(T item)
         {
@@ -73,34 +143,21 @@ namespace TDAList
             throw new NotImplementedException();
         }
 
-        public IEnumerator<T> GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
 
         public int IndexOf(T item)
         {
             throw new NotImplementedException();
         }
 
-        public void Insert(int index, T item)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public bool Remove(T item)
         {
             throw new NotImplementedException();
         }
 
-        public void RemoveAt(int index)
-        {
-            throw new NotImplementedException();
-        }
+        
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
+        
     }
 }

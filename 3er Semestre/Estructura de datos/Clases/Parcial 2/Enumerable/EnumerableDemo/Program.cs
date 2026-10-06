@@ -81,7 +81,13 @@ namespace EnumerableDemo
 
         public IEnumerator<T> GetEnumerator()
         {
-            return new DemoEnumerator<T>(this);
+            //return new DemoEnumerator<T>(this);
+
+            //Cuando yo hago yield return, el codigo regresa el valor, pero guarda el lugar donde se salio de la funcion
+
+            yield return x;
+            yield return y;
+            yield return z;
         }
 
         IEnumerator IEnumerable.GetEnumerator()
@@ -97,18 +103,55 @@ namespace EnumerableDemo
         }
     }
 
+    class FibonacciSeries : IEnumerable<int>
+    {
+        public IEnumerator<int> GetEnumerator()
+        {
+            int a = 0;
+            int b = 1;
+
+            yield return a;
+            yield return b;
+
+            int c;
+            for (; ; ) // for infinito 
+            {
+                c = a + b;
+                yield return c;
+                a = b;
+                b = c;
+
+            }
+
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+    }
 
     internal class Program
     {
         static void Main(string[] args)
         {
+
+            FibonacciSeries fs = new FibonacciSeries();
+            int counter = 0;
+            foreach(int e in fs)
+            {
+                Console.WriteLine($"{e} ");
+                if (counter++ == 10) { break; }
+            }
+
+            /*
             Demo<int> demo = new Demo<int>(10, 25, -64);
             
             foreach (int e in demo)
             {
                 Console.WriteLine(e);
             }
-
+            */
 
             /*
              IEnumerable<int> enumerable = demo.GetEnumerator();
