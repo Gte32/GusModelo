@@ -38,7 +38,7 @@ namespace LinkedListDev
         bool Any(Predicate<T> condition);
         // Returns a number that represents how many elements in the list
         // satisfy a condition.
-        bool Count(Predicate<T> condition);
+        int CountIf(Predicate<T> condition);
         // Searches for an element that matches the conditions defined
         // by the specified predicate, and returns the first occurrence.
         T Find(Predicate<T> match);

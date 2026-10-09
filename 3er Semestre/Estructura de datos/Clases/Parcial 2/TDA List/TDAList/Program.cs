@@ -12,6 +12,49 @@ namespace TDAList
 
         static void Main(string[] args)
         {
+
+            var list = new LinkedList<int>();
+            list.Add(10);
+            list.Add(-4);
+            list.Add(5);
+            list.Add(27);
+            list.Add(-36);
+
+            WriteLine();
+
+
+            /*
+
+            var list = new ArrayList<int>(new int[] { 1, 5, 20, 35, -53, 27, 72 });
+
+            Write(("\n[ "));
+            list.ForEach(e => Write($"{e} "));
+            Write("]");
+
+            int sum = 0;
+            list.ForEach(e => sum += e);
+            WriteLine($"Promedio = {sum / (double)list.Size} ");
+
+            WriteLine($"Todos son positivos: {list.All(e => e >= 0)}");
+            WriteLine($"hay algun  negativo?: {list.Any(e => e < 0)}");
+            WriteLine($"hay algun  cero?: {list.All(e => e == 0)}");
+
+            WriteLine($"\n# positivos: : {list.CountIf(e => e >= 0)}");
+            WriteLine($"\n# negativos: : {list.CountIf(e => e < 0)}");
+            WriteLine($"\n# ceros: : {list.CountIf(e => e == 0)}");
+
+            WriteLine($"Mayor a 50: : {list.Find(e => e >= 50)}");
+            WriteLine($"Menor a 50: : {list.Find(e => e <= 50)}");
+
+            Write(("\n[ "));
+            list.FindAll(e => e >0).ForEach(e => Write($"{e} "));
+            Write("]");
+            */
+
+
+
+
+            /*
             ArrayList<int> list = new ArrayList<int>();
             list.Add(10);
             list.Add(-4);
