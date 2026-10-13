@@ -297,6 +297,25 @@ namespace TDAList
             throw new NotImplementedException();
         }
 
+        public void Sort(Comparison<T> comparison)
+        { 
+            for (int i = 0; i<  Size-1; i++)
+            {
+                for (int j = 0; j < Size-1; j++)
+                {
+                    // si usamos comparison devuelve 1 si es mayor el primero, -1 si es menor, o 0 si es igual
+                    if (comparison(data[j], data[j+1]) > 0 )
+                    {
+
+                        T aux = data[j];
+                        data[j] = data[j + 1];
+                        data[j + 1] = aux;
+
+                    }
+                }
+            }
+        }
+
         
 
         

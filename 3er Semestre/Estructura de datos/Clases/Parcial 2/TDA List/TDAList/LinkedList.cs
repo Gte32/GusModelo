@@ -15,7 +15,8 @@ namespace TDAList
 
             public Node(T element)
             {
-
+                Element = element;
+                Next = null;
             }
 
             public Node(T element, Node next)
@@ -72,6 +73,9 @@ namespace TDAList
         //AREGAGAR EL FOREACH DE ESTA LISTA
         //PROYECTO ACABAR EL LINKEDLIST AQUI A FINAL
 
+
+        //Hay que hacer el sort, para hacer el sort, necesitamos hacer un index primero
+        //seria hacer este y luego hacer sort
         public T this[int index] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public int Count => throw new NotImplementedException();
@@ -97,7 +101,28 @@ namespace TDAList
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            if (Size > 0)
+            {
+                // cuando tienes elementos
+                Node current = first;
+                do
+                {
+                    // el primero nodo regresa el primero elemento, y termina el codigo 
+                    yield return current.Element;
+                    current = current.Next;
+                }
+                while (current != null);
+                
+            }
+
+        }
+
+        public LinkedList(IEnumerable<T> elements) : this()
+        {
+            foreach (var e in elements)
+            {
+                Add(e);
+            }
         }
 
         public int IndexOf(T item)
@@ -124,5 +149,6 @@ namespace TDAList
         {
             return GetEnumerator();
         }
+        
     }
 }

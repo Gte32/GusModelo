@@ -10,9 +10,49 @@ namespace TDAList
     internal class Program
     {
 
+        public class Student
+        {
+            public int Id { get; }
+            public string Name { get; }
+            
+            public double Grade { get; }
+
+            public Student(int id, string name, double grade)
+            {
+                Id = id;
+                Name = name;
+                Grade = grade;
+            }
+
+        }
+
         static void Main(string[] args)
         {
+            //var para INFERIR TIPO
+            var students = new ArrayList<Student>()
+            {
+                new Student(6001, "Paco", 93.22),
+                new Student(6002, "Juan", 78.90),
+                new Student(6003, "Andreuz", 100.00),
+                new Student(6004, "John", 50.95),
+                new Student(6005, "Linux", 87.22),
+                new Student(6006, "Awebo", 98.23)
+            };
 
+            //students.Sort((x, y) => x.Grade.CompareTo(y.Grade));
+            //Esto de abajo no jala, find all devuelve otra lista y esa se ordena lol
+            //students.FindAll(s=> s.Grade <= 60).Sort((x, y) => x.Grade.CompareTo(y.Grade));
+
+            students = (ArrayList<Student>)students.FindAll(s => s.Grade >= 60);
+            students.Sort((x, y) => x.Grade.CompareTo(y.Grade));
+
+
+            foreach (var s in students)
+            {
+                WriteLine($"{s.Id} - {s.Name} - {s.Grade}");
+            }
+
+            /*
             var list = new LinkedList<int>();
             list.Add(10);
             list.Add(-4);
@@ -20,12 +60,22 @@ namespace TDAList
             list.Add(27);
             list.Add(-36);
 
+            Write("\n[ ");
+            foreach (int e in list)
+            {
+                Write($"{e} ");
+            }
+            WriteLine("]");
+            */
+
+            
+            /*
+            var list = new ArrayList<int>(new int[] { 1, 5, 20, 35, -53, 27, 72 });
+
+            list.Sort((x, y) => (x > y ? 1 : (x == y ? 0 : -1)));
             WriteLine();
 
-
-            /*
-
-            var list = new ArrayList<int>(new int[] { 1, 5, 20, 35, -53, 27, 72 });
+            // los tipos de datos basico ya tienen comparacion
 
             Write(("\n[ "));
             list.ForEach(e => Write($"{e} "));
@@ -49,9 +99,9 @@ namespace TDAList
             Write(("\n[ "));
             list.FindAll(e => e >0).ForEach(e => Write($"{e} "));
             Write("]");
+            
+
             */
-
-
 
 
             /*

@@ -28,6 +28,10 @@ namespace LinkedListDev
         void RemoveAt(int index);
         void Clear();
 
+
+        //Delegado, recibe un element t y devuelve un bool
+        //delegado void, recibe un element y no devuelve nada 
+
         // Determines whether a sequence contains a specified element by using
         // the default equality comparer.
         bool Contains(T element);
@@ -45,7 +49,18 @@ namespace LinkedListDev
         // Retrieves all the elements that match the conditions defined
         // by the specified predicate.
         IList<T> FindAll(Predicate<T> match);
-        // Performs the specified action on each element of the list.
+
+
+        //Al pasar el raton en la accion, se muestra lo de summary
+        /// <summary>
+        /// Performs the specified action on each element of the list.
+        /// </summary>
+        /// <param name="action" Delegado accion ></param>
+
         void ForEach(Action<T> action);
+
+
+
+        void Sort(Comparison<T> comparison);
     }
 }
