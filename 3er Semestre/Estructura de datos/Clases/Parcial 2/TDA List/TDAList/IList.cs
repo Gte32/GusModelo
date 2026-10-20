@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LinkedListDev
+namespace TDAList
 {
     public interface IList<T> : IEnumerable<T>
     {

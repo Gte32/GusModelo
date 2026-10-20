@@ -29,6 +29,9 @@ namespace TDAList
         static void Main(string[] args)
         {
             //var para INFERIR TIPO
+
+
+            /*
             var students = new ArrayList<Student>()
             {
                 new Student(6001, "Paco", 93.22),
@@ -51,6 +54,7 @@ namespace TDAList
             {
                 WriteLine($"{s.Id} - {s.Name} - {s.Grade}");
             }
+            /*
 
             /*
             var list = new LinkedList<int>();

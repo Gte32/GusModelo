@@ -91,7 +91,7 @@ namespace TDAList
         //misma funcionalidad que el indexador
         public T Get(int index) => data[index];
 
-        public T Set(int index, T element) => data[index] = element;
+        public void Set(int index, T element) => data[index] = element;
 
         public void AddAll(T first, params T[] elements)
         {
@@ -231,11 +231,11 @@ namespace TDAList
 
 
         //cambiado de Ilist a ArayList para que jale, checar error
-        public ArrayList<T> FindAll(Predicate<T> match)
+        IList<T> IList<T>.FindAll(Predicate<T> match)
         {
             var Found = new ArrayList<T>();
 
-            for (int i = 0; i<Size; i++)
+            for (int i = 0; i < Size; i++)
             {
                 if (match(data[i]))
                 {
@@ -278,25 +278,6 @@ namespace TDAList
 
 
 
-
-        public void CopyTo(T[] array, int arrayIndex)
-        {
-            throw new NotImplementedException();
-        }
-
-
-        public int IndexOf(T item)
-        {
-            throw new NotImplementedException();
-        }
-
-       
-
-        public bool Remove(T item)
-        {
-            throw new NotImplementedException();
-        }
-
         public void Sort(Comparison<T> comparison)
         { 
             for (int i = 0; i<  Size-1; i++)
@@ -316,8 +297,26 @@ namespace TDAList
             }
         }
 
-        
+        /*
+        public void CopyTo(T[] array, int arrayIndex)
+        {
+            throw new NotImplementedException();
+        }
 
-        
+
+        public int IndexOf(T item)
+        {
+            throw new NotImplementedException();
+        }
+
+
+
+        public bool Remove(T item)
+        {
+            throw new NotImplementedException();
+        }
+
+        */
+
     }
 }
