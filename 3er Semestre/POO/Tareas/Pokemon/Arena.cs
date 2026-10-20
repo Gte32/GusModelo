@@ -4,6 +4,7 @@ using System.Text.Json;
 
 class Arena
 {
+    /*
     public void Enfrentar(Pokemon atacante, Pokemon defensor)
     {
         int daño = atacante.ataque;
@@ -20,8 +21,11 @@ class Arena
 
     }
 
+    
+
     private void RecibirDano(Pokemon herido, int daño)
     {
         herido.Vida -= daño;
     }
+    */
 }

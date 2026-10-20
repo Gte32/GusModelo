@@ -14,22 +14,28 @@ class Program
         Pokemon Default = new Pokemon();
         Default.MostrarInformacion();
 
-        Pokemon Falso = new Pokemon("Paloma",100, 50);
+        Pokemon Falso = new Pokemon("Paloma",100, 20);
         Falso.MostrarInformacion();
 
-        Pokemon pikachu = new Pokemon(datos[1]);
-        pikachu.MostrarInformacion();
+        PokemonFuego charmander = new PokemonFuego(datos[4]);
+        charmander.MostrarInformacion();
+
+        PokemonAgua squirtle = new PokemonAgua(datos[9]);
+        squirtle.MostrarInformacion();
 
         //Prueba combate
-        Arena ArenadeCombate = new Arena();
+        //estan muriendo porque estan literal aplicando su ataque completo al otro
+        squirtle.Atacar(Falso);
+        squirtle.Atacar(Default);
+        Falso.Atacar(squirtle);
+        squirtle.Atacar(Falso);
 
-        ArenadeCombate.Enfrentar(pikachu, Falso);
 
 
         //Prueba entrenador
         Entrenador Red = new Entrenador();
 
-        Red.Capturar(pikachu);
+        Red.Capturar(charmander);
 
         //Red.CapturaSalvaje();
         Console.WriteLine($"Pokémon en el equipo: {Red.equipo.Count}");
