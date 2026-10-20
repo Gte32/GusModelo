@@ -146,7 +146,7 @@ namespace TDAList
         {
             if (index < 0 || index >= Size)
             {
-                throw new NotImplementedException("index out of range");
+                throw new IndexOutOfRangeException("index out of range");
             }
 
             Node LastNode = first;
@@ -169,7 +169,7 @@ namespace TDAList
         {
             if (index < 0 || index >= Size)
             {
-                throw new NotImplementedException("index out of range");
+                throw new IndexOutOfRangeException("index out of range");
             }
 
             Node LastNode = first;
@@ -318,13 +318,13 @@ namespace TDAList
         //si es primero solo se ajusta acordemente
         public void Insert(int index, T item)
         {
-            if (index < 0 || index > Size)
+            if (index < 0 || index >= Size)
             {
                 throw new IndexOutOfRangeException("Index");
             }
 
             Node LastNode = first;
-            Size++; // se crea el esapcio para el nuevo
+            Size++; // se crea el esapcio para el nuevo, independientemente de cual
             if (index == 0)
             {
                 first = new Node(item, LastNode); // lastNode se vuelve su siguiente, se mueve
@@ -381,7 +381,36 @@ namespace TDAList
         //metodo que agrego edson luego
         public void Sort(Comparison<T> comparison)
         {
-            throw new NotImplementedException();
+            Node current = first; //Nodo actual que estamos comparando
+
+            // Recorremos la lista hasta el penúltimo nodo, i es el índice del nodo actual
+            for (int i = 0; i < Size - 1; i++)
+            {
+                if (comparison(current.Element, current.Next.Element) > 0) //lambda es mayor a 0, el de la izquierda x es mayor
+                {
+                    // El elemento del nodo siguiente no está ordenado, lo guardamos en una variable temporal
+                    T temp = current.Next.Element;
+                    // Luego removemos el nodo que acabamos de guardar en temp, para insertarlo en la posición correcta
+                    RemoveAt(i + 1);
+
+                    // Buscamos el primer elemento mayor que temp en la parte de la lista que ya está ordenada
+                    int j = 0;
+                    Node aux = first;
+                    while (comparison(aux.Element, temp) <= 0)
+                    {
+                        aux = aux.Next;
+                        j++;
+                    }
+
+                    // Insertamos temp en la posición correcta, con la funcion ya hecha
+                    Insert(j, temp);
+                }
+                else
+                {
+                    // Si el elemento del siguiente nodo si está ordenado
+                    current = current.Next; // Avanzamos al siguiente nodo
+                }
+            }
         }
 
         //leo metodo de print

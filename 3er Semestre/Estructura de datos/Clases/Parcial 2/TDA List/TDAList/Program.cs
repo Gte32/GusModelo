@@ -28,6 +28,62 @@ namespace TDAList
 
         static void Main(string[] args)
         {
+
+            // ----- Prueba y Demostración de las LinkedLists ----- //
+
+            //LEO SORT
+
+            WriteLine("\nPrueba constructor genérico");
+            LinkedList<int> listaPrueba = new LinkedList<int>(
+                new int[] { 1, -3, 5, 0, 35, -53, 27, 72, 24, 0, 1 });
+            listaPrueba.Print();
+
+            WriteLine($"\nLista[3]: {listaPrueba[3]}");
+            listaPrueba[6] = 67; WriteLine($"listaPrueba[6] = 67");
+            listaPrueba.Print();
+
+            WriteLine("\nPrueba AddAll(100, 2, 56, 34, -11)");
+            listaPrueba.AddAll(100, 2, 56, 34, -11);
+            listaPrueba.Print();
+
+            WriteLine("\nPrueba Insert(4, -20)");
+            listaPrueba.Insert(4, -20);
+            listaPrueba.Print();
+
+            WriteLine("\nPrueba RemoveAt(2)");
+            listaPrueba.RemoveAt(2);
+            listaPrueba.Print();
+
+            WriteLine($"\nPrueba Contains - La lista contiene un 35: {listaPrueba.Contains(35)}");
+
+            WriteLine("\nPrueba ForEach(Write(e => Write($\"{e+67} \"))");
+            Write("\n[ ");
+            listaPrueba.ForEach(e => Write($"{e + 67} "));
+            WriteLine("]");
+
+            WriteLine($"\nPrueba All - Todos son positivos: {listaPrueba.All(e => e >= 0)}");
+
+            WriteLine($"\nPrueba Any - Hay algún negativo?: {listaPrueba.Any(e => e < 0)}");
+            WriteLine($"Prueba Any - Hay algún cero?: {listaPrueba.Any(e => e == 0)}");
+
+            WriteLine($"\nPrueba Count - # positivos: {listaPrueba.Count(e => e > 0)}");
+            WriteLine($"Prueba Count - # negativos: {listaPrueba.Count(e => e < 0)}");
+            WriteLine($"Prueba Count - # ceros: {listaPrueba.Count(e => e == 0)}");
+
+            WriteLine($"\nPrueba Find - Mayor a 50: {listaPrueba.Find(e => e >= 50)}");
+            WriteLine($"Prueba Find - Mayor a 50 (magnitud): {listaPrueba.Find(e => e >= 50 || e < -50)}");
+
+            WriteLine("\nPrueba FindAll(e => e > 0)");
+            listaPrueba.FindAll(e => e > 0).ForEach(e => Write($"{e} "));
+            WriteLine();
+
+            WriteLine("\nPrueba Sort((x, y) => x.CompareTo(y))");
+            listaPrueba.Sort((x, y) => x.CompareTo(y));
+            listaPrueba.Print();
+
+            WriteLine("\nPrueba Clear()");
+            listaPrueba.Clear();
+            listaPrueba.Print();
             //var para INFERIR TIPO
 
 
@@ -72,7 +128,7 @@ namespace TDAList
             WriteLine("]");
             */
 
-            
+
             /*
             var list = new ArrayList<int>(new int[] { 1, 5, 20, 35, -53, 27, 72 });
 
