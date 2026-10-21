@@ -24,12 +24,19 @@ class Program
         squirtle.MostrarInformacion();
 
         //Prueba combate
+
+        /*
         //estan muriendo porque estan literal aplicando su ataque completo al otro
         squirtle.Atacar(Falso);
         squirtle.Atacar(Default);
         Falso.Atacar(squirtle);
         squirtle.Atacar(Falso);
+        */
 
+        //prueba arena 
+
+        Arena arena = new Arena();
+        arena.Enfrentar(charmander, Falso);
 
 
         //Prueba entrenador
