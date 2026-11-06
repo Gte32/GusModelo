@@ -84,14 +84,14 @@ namespace TDAList
                 //actualiza lastnode, es decir, del ultimo nodo, se mueve al siguiente,
                 while(lastNode.Next != null)
                 {
-                    lastNode = lastNode.Next;
+                    lastNode = lastNode.Next; //si la actual NO es la ultima, tiene una mas, moverse hasta la ultima
                 }
 
 
-                lastNode.Next = new Node(element);
+                lastNode.Next = new Node(element); //se crea en la referencia del ultimo del siguiente, el nuevo nodo con su elemento
             }
 
-            Size++;
+            Size++; //crece en size
         }
 
         public IEnumerator<T> GetEnumerator()
@@ -104,7 +104,7 @@ namespace TDAList
                 do
                 {
                     // el primero nodo regresa el primero elemento, y termina el codigo 
-                    yield return current.Element;
+                    yield return current.Element; //esto para codigo, recuerda donde esta y regresa
 
                     //si lo vuelves a invocar cae y se mueve al siguiente y te lo devuelve arriba
                     current = current.Next;
@@ -324,12 +324,14 @@ namespace TDAList
             }
 
             Node LastNode = first;
+
             Size++; // se crea el esapcio para el nuevo, independientemente de cual
+            //maiami me lo confirmo
+
             if (index == 0)
             {
                 first = new Node(item, LastNode); // lastNode se vuelve su siguiente, se mueve
                 return;
-
             }
 
 
